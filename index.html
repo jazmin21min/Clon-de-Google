@@ -1,0 +1,104 @@
+<!--! para que aparezca en buscador-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <!--Con esto conectamos css a html con el href-->
+    <!--href: nos dice donde est tu archivo-->
+    <link rel="stylesheet" href="/main.css">
+</head>
+<!--Es lo que el usuario ve -->
+<body>
+    <!--Secciones: HEADER, MAIN Y FOOTER-->
+    <!--HEADER: Obtendra la navegacion-->
+    <header>
+        <!--Pertenece a la navegacion exclusivamente-->
+        <!--Elemento especificamente para navegar-->
+        <nav>
+            <!--Lista no ordenada-->
+            <ul class="nav-right-section">
+                <li>
+                    <!--ancla-->
+                    <a href="https://mail.google.com/mail/u/0/?hl=es-419">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com.mx/imghp?hl=es-419&authuser=0&ogbl">Imagenes</a>
+                </li>
+                <li class="menu">
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://lh3.googleusercontent.com/ogw/AKPQZvy-F9GjAePu159Q8GXldiRgHh80i4YslqLIa0-rYKY=s64-c-mo" alt="">
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Siguiente seccion-->
+    <!--MAIN mas importante es una division como si fuera una caja gigante-->
+    <!-- section: es una caja invisible -->
+    <main>
+        <section class="main-logo">
+            <img src="/imagenes/google-logo-1.png" alt="logo de Google">
+        </section>
+        <!--Buscador input-->
+        <section class="main-input">
+            <div class="main-input-container">
+                <!--SPAN lupa-->
+                <span class="search-icon"></span>
+                <!--INPUT (texto)--> 
+                <input type="text">
+                <a  class="micro-icon" href=></a>
+                <a class="cam-icon" href=""></a>
+            </div>
+        </section>
+        <!--BOTONES-->
+        <section class="btn-google">
+            <button class="buscar"> Buscar con Google </button>
+            <button class="suerte">Voy a tener suerte</button>
+        </section>
+    </main>
+    <footer>
+        <section class="sec-mexico">
+            <ul class="mexico-section">
+                México
+            </ul>
+        </section>
+        <section class="dow-sec">
+            <ul class="sec-info">
+                <il class="left-sec-foot">
+                    <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+                </il>
+
+                <il class="left-sec-foot">
+                    <a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                </il>
+
+                <il class="left-sec-foot"> 
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX">Negocios</a>
+                </il>
+                <il class="left-sec-foot"> 
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                </il>
+
+                <il class="right-sec-foot"> 
+                    <a href="">Preferencias</a>
+                </il>
+
+                <il class="right-sec-foot">
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a>
+                </il>
+                <il class="right-sec-foot">
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a>
+                </il>
+            </ul>
+
+        </section>
+    </footer>
+    
+</body>
+</html>

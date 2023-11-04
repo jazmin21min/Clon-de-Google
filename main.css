@@ -1,0 +1,230 @@
+/*Vamos a coenctar html con css*/
+body{  
+    /*margen de elementos*/
+    margin: 0;
+    /*margen hacia adentro de los bordes de los elementos*/
+    padding: 0;
+    /*Fuente del texto*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Tam del texto*/
+    font-size: 13px;
+}
+
+/*NAVEGACION */
+header{
+    /*background-color: #fddbf2;*/
+    /*Es para asegurar el rango que va a a ocupar el color de la caja*/
+    width: 100%;
+    height: 60px;
+}
+/*ES PARA ACCEDER A UN ELEMENTO QUE ESTA DENTRO DE ESTE */
+header nav{
+    /*para justificar a la derecha*/
+    /*Nos habilita usar flex-end, flex-star*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+   /* background-color: beige;*/
+    width: 250px;
+    /*Es para asegurar el rango de color de la caja*/
+    height: auto;
+    /*elimina los puntos*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /*aliena los elementos verticalemte */
+    align-items: center;
+    
+   
+}
+
+a{
+    /*para quirtar la liena de las anclas de gmail..*/
+    text-decoration: none;
+    /**/
+}
+nav .nav-right-section a{
+    /*color de las anclas*/
+    color: black;
+    /*se aplica un margen derecho entre los elementos*/
+    margin-right: 20px;
+}
+/*Es para poner margen que puede tener color o no
+margin-right:10px a la derecha
+margin-left:10px
+margin-top:10 px arriba
+margin-bottom:10px abajo
+margin: 10 px aplica en todos loslados*/
+
+/*Icono del menu*/
+nav .nav-right-section .menu{
+    /*Propiedad que nos permite meter una imagen de fondo
+    desde css*/
+    background-image: url(https://ssl.gstatic.com/gb/images/bar/al-icon.png);
+    /*imagen conetnida*/
+    background-size: contain;
+    /*Camabiamos el tam*/
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    border-radius: 100%;
+    /*ca,bia el tam de la imagen*/
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+}
+
+main{
+    /*color del main
+    background-color: rgb(255, 254, 255);
+    Agregamos espacios en header u y main*/
+    
+    margin-top: 100px;
+    /*Centramos las cosas*/
+    text-align: center;
+
+}
+main .main-logo{
+    width: 530px;
+   
+    /*background-color: aquamarine;*/
+    /*Margen vectical margen orizontal*/
+    margin: 0 auto;
+
+}
+
+main .main-logo img{
+    height: 90px;
+}
+
+main .main-input{
+   
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-input-container{
+   
+    /*ancho borde!! borde-estilo!! borde - color*/
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 525px;
+}
+
+main .main-input input{
+    height: 35px;
+/*quita el borde*/
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+main .main-input-container:hover{
+    /*Es para poner la sombra*/
+    box-shadow: 4px 4px 4px 4px pink;
+}
+main .btn-google{
+    padding-top: 30px;
+}
+
+main .buscar{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    border-color: transparent;
+}
+
+main .suerte{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: transparent;
+
+}
+main .main-input .search-icon{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3031/3031293.png);
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    background-repeat: no-repeat;
+    height: 20px;
+    padding-left: 6%;
+
+
+}
+/*
+
+main .main-input .serch-icon{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3031/3031293.png);
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 10px;
+    padding-left: 10px;
+
+
+}
+*/
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    padding-left: 10px;
+    margin-right: 0.5%;
+
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg) ;
+   background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 10%;
+    margin-left: 7px;
+}
+
+footer{ 
+    /*uLTIMA CAJA*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #868994;
+}
+
+footer .mexico-section{
+    padding: auto;
+    padding-bottom: 12px;
+    padding-top: 7px;
+    list-style: none;
+    padding-left: 35px;
+    border-bottom: 1px solid #e3e4e7;
+}
+
+footer .sec-info{
+    padding-bottom: 16px;
+    padding-top: 7px;
+    padding-right: 20px;
+    padding-left: 13px;
+}
+
+footer .left-sec-foot{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;
+
+}
+
+footer .right-sec-foot{
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    margin-right: 0 auto;
+}
