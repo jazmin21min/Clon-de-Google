@@ -124,7 +124,8 @@ main .main-input input{
 
 main .main-input-container:hover{
     /*Es para poner la sombra*/
-    box-shadow: 4px 4px 4px 4px pink;
+   box-shadow: 4px 4px 4px 4px #dfe1e5;
+    border: 1px solid #dfe1e5;
 }
 main .btn-google{
     padding-top: 30px;
@@ -174,11 +175,11 @@ main .main-input .serch-icon{
 main .main-input .micro-icon{
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
     background-size: contain;
-    width: 20px;
+    width: 25px;
     background-repeat: no-repeat;
     height: 20px;
     padding-left: 10px;
-    margin-right: 0.5%;
+    margin-right: 1%;
 
 }
 main .main-input .cam-icon{
@@ -186,7 +187,7 @@ main .main-input .cam-icon{
    background-repeat: no-repeat;
     background-size: contain;
     padding-right: 10%;
-    margin-left: 7px;
+    margin-left: 0.5px;
 }
 
 footer{ 
